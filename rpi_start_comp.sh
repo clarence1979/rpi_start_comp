@@ -23,6 +23,12 @@ pip install python-espeak
 pip3 install python-easygui
 pip install python-easygui
 
+pip3 install opencv-python
+sudo apt-get install libatlas-base-dev
+sudo apt-get install libjasper-dev
+sudo apt-get install libqtgui4
+sudo apt-get install libqt4-test
+
 sudo apt-get update && sudo apt-get upgrade
 sudo apt-get install build-essential cmake pkg-config
 sudo apt-get install libjpeg-dev libtiff5-dev libjasper-dev libpng12-dev
