@@ -1,6 +1,13 @@
+sudo apt-get update && sudo apt-get upgrade
+sudo apt-get install build-essential cmake pkg-config
+sudo apt-get install libjpeg-dev libtiff5-dev libjasper-dev libpng12-dev
+sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
+sudo apt-get install libxvidcore-dev libx264-dev
+sudo apt-get install libgtk2.0-dev libgtk-3-dev
+sudo apt-get install libatlas-base-dev gfortran
+sudo apt-get install python2.7-dev python3-dev
 
-sudo apt-get update -y
-sudo apt-get upgrade -y
+
 sudo apt-get install idle
 sudo apt-get install minecraft-pi
 sudo apt-get install python
@@ -29,13 +36,5 @@ sudo apt-get install libjasper-dev
 sudo apt-get install libqtgui4
 sudo apt-get install libqt4-test
 
-sudo apt-get update && sudo apt-get upgrade
-sudo apt-get install build-essential cmake pkg-config
-sudo apt-get install libjpeg-dev libtiff5-dev libjasper-dev libpng12-dev
-sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
-sudo apt-get install libxvidcore-dev libx264-dev
-sudo apt-get install libgtk2.0-dev libgtk-3-dev
-sudo apt-get install libatlas-base-dev gfortran
-sudo apt-get install python2.7-dev python3-dev
 
 
