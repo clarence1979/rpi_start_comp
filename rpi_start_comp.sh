@@ -14,13 +14,11 @@ sudo apt-get install python
 sudo apt-get install python3
 sudo apt-get install pip
 sudo apt-get install pip3
-cd Desktop
-sudo git clone https://github.com/DexterInd/Raspbian_For_Robots.git
-cd Raspbian_For_Robots
-sudo bash update_master.sh
-cd ..
-sudo git clone https://github.com/bennuttall/sense-hat-examples.git
+
 sudo apt-get install gedit
+
+sudo pip install scapy
+sudo pip3 install scapy
 
 pip3 install --upgrade numpy
 pip3 install djitellopy
@@ -36,5 +34,10 @@ sudo apt-get install libjasper-dev
 sudo apt-get install libqtgui4
 sudo apt-get install libqt4-test
 
-
+cd Desktop
+sudo git clone https://github.com/DexterInd/Raspbian_For_Robots.git
+cd Raspbian_For_Robots
+sudo bash update_master.sh
+cd ..
+sudo git clone https://github.com/bennuttall/sense-hat-examples.git
 
