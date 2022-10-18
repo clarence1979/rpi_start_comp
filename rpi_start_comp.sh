@@ -1,4 +1,7 @@
+#General Program upgrade
 sudo apt-get update && sudo apt-get upgrade
+
+#Code to control the Tello
 sudo apt-get install build-essential cmake pkg-config
 sudo apt-get install libjpeg-dev libtiff5-dev libjasper-dev libpng12-dev
 sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
@@ -7,33 +10,37 @@ sudo apt-get install libgtk2.0-dev libgtk-3-dev
 sudo apt-get install libatlas-base-dev gfortran
 sudo apt-get install python2.7-dev python3-dev
 
-
-sudo apt-get install idle
-sudo apt-get install minecraft-pi
-sudo apt-get install python
-sudo apt-get install python3
-sudo apt-get install pip
-sudo apt-get install pip3
-
-sudo apt-get install gedit
-
-sudo pip install scapy
-sudo pip3 install scapy
-
 pip3 install --upgrade numpy
 pip3 install djitellopy
-
-pip3 install python-espeak
-pip install python-espeak
-pip3 install python-easygui
-pip install python-easygui
-
 pip3 install opencv-python
 sudo apt-get install libatlas-base-dev
 sudo apt-get install libjasper-dev
 sudo apt-get install libqtgui4
 sudo apt-get install libqt4-test
 
+# to talk to other hosts in the same network
+sudo apt-get install talkd talk -y
+
+#Install other utilities
+sudo apt-get install idle
+sudo apt-get install minecraft-pi
+sudo apt-get install python
+sudo apt-get install python3
+sudo apt-get install pip
+sudo apt-get install pip3
+sudo apt-get install gedit
+
+#RPI Network analyser
+sudo pip install scapy
+sudo pip3 install scapy
+
+#Espeak and Easy GUI
+pip3 install python-espeak
+pip install python-espeak
+pip3 install python-easygui
+pip install python-easygui
+
+#Raspbian for Robots and Sensehat / Astropi Code copied to Desktop
 cd Desktop
 sudo git clone https://github.com/DexterInd/Raspbian_For_Robots.git
 cd Raspbian_For_Robots
