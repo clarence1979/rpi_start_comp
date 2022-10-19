@@ -18,6 +18,15 @@ sudo apt-get install libjasper-dev
 sudo apt-get install libqtgui4
 sudo apt-get install libqt4-test
 
+#Web Server Installation and setup
+sudo apt-get install apache2 -y
+sudo apt-get install php libapache2-mod-php -y
+sudo apt-get install mariadb-server
+sudo mysql_secure_installation
+sudo apt install php-mysql
+sudo service apache2 restart
+sudo chmod 777 /var/www/html
+
 # to talk to other hosts in the same network
 sudo apt-get install talkd talk -y
 
