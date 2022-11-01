@@ -5,6 +5,10 @@
 #        psk=61039cbb2a358fd11891a0f1b9eab1a643d27f4f097cb8b2e8baa6c00566cf6a
 #        disabled=0
 #}
+#network scanner - scans all IP
+#nmap -sn 192.168.0.0/24
+sudo apt-install nmap
+
 #General Program upgrade
 sudo apt-get update && sudo apt-get upgrade
 
