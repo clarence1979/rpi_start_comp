@@ -6,6 +6,9 @@
 #        disabled=0
 #}
 
+sudo apt-get install okular
+
+
 #Sets screen emptying to off and screen saver to off
 sudo xset -dpms s off
 
