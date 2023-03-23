@@ -5,6 +5,7 @@
 #        psk=61039cbb2a358fd11891a0f1b9eab1a643d27f4f097cb8b2e8baa6c00566cf6a
 #        disabled=0
 #}
+sudo apt remove orca -y
 
 sudo apt-get install okular
 
@@ -75,3 +76,4 @@ sudo bash update_master.sh
 cd ..
 sudo git clone https://github.com/bennuttall/sense-hat-examples.git
 
+sudo apt autoremove
