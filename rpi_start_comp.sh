@@ -4,7 +4,7 @@ sudo apt-get update && sudo apt-get upgrade -y
 sudo apt remove orca -y
 
 sudo apt-get install okular -y
-
+sudo apt-get install wget -y
 
 #Sets screen emptying to off and screen saver to off
 sudo xset -dpms s off
