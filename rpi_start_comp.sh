@@ -62,7 +62,13 @@ pip3 install python-espeak
 pip install python-espeak
 pip3 install python-easygui
 pip install python-easygui
+
+cd ~
+cd /boot
+sudo wget https://github.com/clarence1979/rpi_start_comp/blob/main/config.txt
 sudo apt autoremove
+cd ~
+cd /home
 #Raspbian for Robots and Sensehat / Astropi Code copied to Desktop
 cd Desktop
 sudo git clone https://github.com/bennuttall/sense-hat-examples.git
