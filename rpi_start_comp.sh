@@ -1,5 +1,9 @@
 #General Program upgrade
 sudo apt-get update && sudo apt-get upgrade -y
+sudo apt update -y
+sudo apt install snapd -y
+sudo snap install core -y
+sudo snap install teams-for-linux -y
 
 sudo apt remove orca -y
 
