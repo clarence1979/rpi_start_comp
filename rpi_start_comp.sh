@@ -2,8 +2,9 @@
 sudo apt-get update && sudo apt-get upgrade -y
 sudo apt update -y
 sudo apt install snapd -y
-sudo snap install core -y
-sudo snap install teams-for-linux -y
+sudo snap install core
+sudo snap install teams-for-linux
+sudo apt-get install blender
 
 sudo apt remove orca -y
 
