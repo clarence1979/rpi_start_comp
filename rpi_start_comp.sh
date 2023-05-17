@@ -1,5 +1,9 @@
 #General Program upgrade
 sudo apt-get update && sudo apt-get upgrade -y
+
+sudo pip install openai
+sudo pip3 install openai
+
 sudo apt update -y
 sudo apt install snapd -y
 sudo snap install core
