@@ -1,6 +1,7 @@
 #General Program upgrade
 sudo apt-get update && sudo apt-get upgrade -y
 
+sudo apt-get install build-essential python-pyaudio python-numpy python-scipy python-matplotlib
 sudo pip install openai
 sudo pip3 install openai
 
