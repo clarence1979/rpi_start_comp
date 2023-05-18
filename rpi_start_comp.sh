@@ -1,6 +1,9 @@
 #General Program upgrade
 sudo apt-get update && sudo apt-get upgrade -y
 python3 -m pip install sounddevice
+sudo pip3 install sounddevice
+
+
 sudo pip3 install ffmpeg-python
 sudo apt-get install build-essential python-pyaudio python-numpy python-scipy python-matplotlib
 sudo pip install openai
