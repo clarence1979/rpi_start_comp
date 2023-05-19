@@ -20,6 +20,12 @@ source ~/.profile
 #Download this: https://github.com/petewarden/spchcat/releases/download/v0.0.2-rpi-alpha/spchcat_0.0-2_armhf.deb
 sudo dpkg -i ~/Downloads/spchcat_0.0-2_armhf.deb
 
+sudo pip3 install speechrecognition
+sudo apt-get install python3-pyaudio
+sudo pip3 install pyaudio
+sudo pip3 install pyttsx3
+sudo apt-get install flac
+
 sudo pip3 install ffmpeg-python
 sudo apt-get install build-essential python-pyaudio python-numpy python-scipy python-matplotlib
 sudo pip install openai
