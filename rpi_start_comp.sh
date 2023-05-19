@@ -6,28 +6,16 @@ pip install pydub
 pip3 install pydub
 sudo apt-get install libsox-dev -y
 
-#Install DeepSpeech
-sudo apt install git python3-pip python3-scipy python3-numpy python3-pyaudio libatlas3-base
-pip3 install deepspeech --upgrade
-mkdir ~/dspeech
-cd ~/dspeech
-curl -LO https://github.com/mozilla/DeepSpeech/releases/download/v0.9.3/deepspeech-0.9.3-models.tflite
-curl -LO https://github.com/mozilla/DeepSpeech/releases/download/v0.9.3/deepspeech-0.9.3-models.scorer
-curl -LO https://github.com/mozilla/DeepSpeech/releases/download/v0.9.3/audio-0.9.3.tar.gz
-tar xvf audio-0.9.3.tar.gz
-source ~/.profile
-
-#Download this: https://github.com/petewarden/spchcat/releases/download/v0.0.2-rpi-alpha/spchcat_0.0-2_armhf.deb
-sudo dpkg -i ~/Downloads/spchcat_0.0-2_armhf.deb
-
+#Speech
 sudo pip3 install speechrecognition
 sudo apt-get install python3-pyaudio
 sudo pip3 install pyaudio
 sudo pip3 install pyttsx3
-sudo apt-get install flac
+sudo apt-get install flac -y
 
 sudo pip3 install ffmpeg-python
-sudo apt-get install build-essential python-pyaudio python-numpy python-scipy python-matplotlib
+sudo apt install git python3-pip python3-scipy python3-numpy python3-pyaudio libatlas3-base -y
+sudo apt-get install build-essential python-pyaudio python-numpy python-scipy python-matplotlib -y
 sudo pip install openai
 sudo pip3 install openai
 
