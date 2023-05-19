@@ -4,6 +4,7 @@ python3 -m pip install sounddevice
 sudo pip3 install sounddevice
 pip install pydub
 pip3 install pydub
+sudo apt-get install libsox-dev -y
 
 sudo pip3 install ffmpeg-python
 sudo apt-get install build-essential python-pyaudio python-numpy python-scipy python-matplotlib
