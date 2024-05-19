@@ -81,9 +81,27 @@ sudo apt-get install libgtk2.0-dev libgtk-3-dev -y
 sudo apt-get install libatlas-base-dev gfortran -y
 sudo apt-get install python2.7-dev python3-dev -y
 
-pip3 install --upgrade numpy
-pip3 install djitellopy
-pip3 install opencv-python
+#Ensure Python 3.9.0
+sudo apt-get install -y build-essential tk-dev libncurses5-dev libncursesw5-dev libreadline6-dev libdb5.3-dev libgdbm-dev libsqlite3-dev libssl-dev libbz2-dev libexpat1-dev liblzma-dev zlib1g-dev libffi-dev
+wget https://www.python.org/ftp/python/3.9.0/Python-3.9.0.tar.xz
+tar xf Python-3.9.0.tar.xz
+cd Python-3.9.0
+./configure --enable-optimizations --prefix=/usr
+make
+sudo make altinstall
+cd ..
+sudo rm -r Python-3.9.0
+rm Python-3.9.0.tar.xz
+. ~/.bashrc
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.9 1
+python -V
+
+#Ensure correct version of OpenCV
+sudo pip 3 install --user --upgrade pip
+sudo pip3 install opencv-python==4.6.0.66
+sudo pip3 install --upgrade numpy
+sudo pip3 install djitellopy
+
 sudo apt-get install libatlas-base-dev -y
 sudo apt-get install libjasper-dev -y
 sudo apt-get install libqtgui4 -y
@@ -115,10 +133,10 @@ sudo pip install scapy -y
 sudo pip3 install scapy -y
 
 #Espeak and Easy GUI
-pip3 install python-espeak
-pip install python-espeak
-pip3 install python-easygui
-pip install python-easygui
+sudo pip3 install python-espeak
+sudo pip install python-espeak
+sudo pip3 install python-easygui
+sudo pip install python-easygui
 
 cd ~
 cd /boot
