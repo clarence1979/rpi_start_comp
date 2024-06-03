@@ -1,3 +1,13 @@
+#Drone things June 2024
+pip install tello-python
+pip3 install tello-python
+pip install openai==0.28
+pip3 install openai==0.28
+pip install tello
+pip3 install tello
+
+
+
 #General Program upgrade
 sudo apt-get update && sudo apt-get upgrade -y
 python3 -m pip install sounddevice
