@@ -55,6 +55,7 @@ sudo apt-get install python3-pyaudio
 sudo pip3 install pyaudio
 sudo pip3 install pyttsx3
 sudo apt-get install flac -y
+pip3 install gTTS
 
 sudo pip3 install ffmpeg-python
 sudo apt install git python3-pip python3-scipy python3-numpy python3-pyaudio libatlas3-base -y
